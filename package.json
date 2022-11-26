@@ -1,0 +1,27 @@
+{
+  "name": "node-dice",
+  "version": "1.0.0",
+  "description": "Purpose to create installable Node.js module package",
+  "main": "./lib/roll.js",
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-krenfan.git"
+  },
+  "author": "krenfan",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-krenfan/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-krenfan#readme",
+  "dependencies": {
+    "mathjs": "^11.4.0",
+    "minimist": "^1.2.7"
+  }
+}
